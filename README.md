@@ -1,5 +1,5 @@
 🌿 Totoro Soot Sprite Collector 🍄
-Hiii! Welcome to Totoro's little adventure! ✨ This is a cute pixel art mini-game made with love, inspired by the magical world of Studio Ghibli. Come on, help Totoro collect the adorable Soot Sprites!
+Hiii! Welcome to Totoro's little adventure! ✨ This is a cute pixel art mini-game made with love, inspired by the magical world of Studio Ghibli. I made it just for fun so don't expect too much huhu, it's just a simple game btw/ So come on, help Totoro collect the adorable Soot Sprites!
 
 ✨ What's Special?
 Cute Pixel Art: Classic retro visuals that'll make you smile!
@@ -86,4 +86,8 @@ Pixel Font: 'Press Start 2P' by CodeMan38
 
 Sound Effects / Music: [Mention SFX/Music source if from third-party, or write "Original" or "Homemade" if you made them]
 
-![alt text](image.png)
+---
+
+### 📸 Screenshot Game
+
+![Totoro Soot Sprite Collector Gameplay](images/screenshot_gameplay.png)
