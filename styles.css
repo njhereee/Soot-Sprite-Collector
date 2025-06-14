@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Gaya Dasar untuk seluruh halaman */
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Mengatur box-sizing secara global untuk perhitungan layout yang lebih intuitif */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Container utama aplikasi desktop kecil */
+.container {
+    width: 320px;
+    background-color: #2A2F25;
+    border: 5px solid #5B6C5D;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative; /* Penting untuk positioning overlay */
+}
+
+/* Gaya untuk Header */
+.header {
+    background-color: #4A604D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    display: flex;
+    justify-content: flex-start; /* Mengubah ini agar icon dan judul dimulai dari kiri */
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px; /* Memberikan jarak antara icon, judul, dan kontrol jendela */
+}
+
+.header h1 {
+    font-size: 0.7em; /* <-- Diubah dari 0.8em menjadi 0.7em untuk mencegah wrapping */
+    margin: 0; /* Hapus margin default pada h1 */
+    flex-grow: 1; /* Biarkan judul mengisi ruang yang tersedia */
+}
+
+.window-controls {
+    display: flex;
+    gap: 5px;
+    margin-left: auto; /* Mendorong window-controls ke kanan */
+}
+
+.control-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    image-rendering: pixelated;
+    transition: transform 0.1s ease;
+}
+
+.control-icon:hover {
+    transform: scale(1.1);
+}
+
+.control-icon:active {
+    transform: scale(0.9);
+}
+
+/* Gaya untuk Konten Utama (area kanvas game) */
+.game-container {
+    background-color: #3A4B3C;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gaya untuk Canvas Game */
+#gameCanvas {
+    background-color: #2D3A2F;
+    display: block;
+    margin: 0 auto;
+    
+    width: 256px;
+    height: 192px;
+    
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    border-radius: 4px;
+    border: 2px solid #7C937E;
+}
+
+/* Gaya untuk Info Game (Skor, Health) */
+#game-info {
+    font-size: 0.7em;
+    padding: 5px;
+    color: #9ADF8D;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #1F2720;
+    border-radius: 4px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+#game-info p {
+    margin: 5px 0;
+}
+
+/* Gaya untuk Footer */
+footer {
+    background-color: #4A604D;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.6em;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Gaya untuk Overlay Start Game */
+.overlay {
+    position: absolute; /* Posisikan di atas container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Latar belakang semi-transparan gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Pastikan di atas elemen lain */
+    border-radius: 8px; /* Ikuti border-radius container */
+}
+
+.overlay-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #3A4B3C; /* Warna tema game */
+    border: 3px solid #7C937E;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-content h2 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Gunakan gaya pixel-button yang sudah ada */
+.pixel-button {
+    background-color: #8B5E3C;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7em;
+    padding: 8px 12px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.05s ease;
+    box-shadow: 2px 2px 0px #555;
+}
+
+.pixel-button:hover {
+    background-color: #a06e4a;
+    box-shadow: 3px 3px 0px #555;
+}
+
+.pixel-button:active {
+    background-color: #7a4f2e;
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0px #555;
+}

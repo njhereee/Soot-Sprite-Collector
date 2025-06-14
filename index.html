@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totoro Soot Sprite Collector</title>
+    <!-- Baris ini menambahkan ikon kecil di tab browser atau bilah alamat -->
+    <link rel="icon" href="images/tororo-pixel.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Bagian Header Aplikasi -->
+        <header class="header">
+            <!-- Icon Totoro di sebelah judul dalam aplikasi -->
+            <h1>Soot Sprite Collector!</h1>
+            <div class="window-controls">
+                <img id="shrinkBtn" src="images/shrink-icon.png" alt="Shrink" class="control-icon">
+                <img id="closeBtn" src="images/close-icon.png" alt="Close" class="control-icon">
+            </div>
+        </header>
+
+        <!-- Bagian Konten Utama - Area Game Canvas -->
+        <div class="game-container">
+            <!-- Canvas tempat game akan digambar dengan resolusi internal yang lebih seimbang -->
+            <canvas id="gameCanvas" width="128" height="96"></canvas>
+            
+            <!-- Informasi game seperti skor dan kesehatan -->
+            <div id="game-info">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+        </div>
+
+        <!-- Bagian Footer Aplikasi -->
+        <footer class="footer">
+            <p>&copy; 2025 Totoro World. All rights reserved.</p>
+        </footer>
+    </div>
+
+        <div id="startGameOverlay" class="overlay">
+            <div class="overlay-content">
+                <h2>Totoro Awaits!</h2>
+                <button id="startButton" class="pixel-button">Mulai Game</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Menghubungkan ke file JavaScript game -->
+    <script src="script.js"></script>
+</body>
+</html>
