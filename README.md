@@ -1,65 +1,65 @@
 🌿 Totoro Soot Sprite Collector 🍄
-Halooo! Selamat datang di petualangan kecil Totoro! ✨ Ini adalah mini-game piksel art yang dibuat dengan luv, terinspirasi dari dunia magis Studio Ghibli. Yuk, bantu Totoro mengumpulkan Soot Sprite! Game ini simple banget cuma buat lucu-lucuan sih hehehe.
+Hiii! Welcome to Totoro's little adventure! ✨ This is a cute pixel art mini-game made with love, inspired by the magical world of Studio Ghibli. Come on, help Totoro collect the adorable Soot Sprites!
 
-✨ Apa yang Spesial?
-Piksel Art Gemoy: Visual jadul yang bikin kangen!
+✨ What's Special?
+Cute Pixel Art: Classic retro visuals that'll make you smile!
 
-Totoro Hidup! Dia bisa jalan, gerak-gerak, dan bahkan tidur kalau kamu diamin~ 😴 Soot Sprite juga bisa muter-muter lho!
+A Living Totoro! He can walk around, move a bit, and even fall asleep if you leave him alone~ 😴 Oh, and the Soot Sprites can spin too!
 
-Kontrol Gampang: Pakai Arrow Keys atau WASD aja.
+Easy Controls: Just use the Arrow Keys or WASD.
 
-Kumpulin Soot Sprite: Setiap kamu sentuh Soot Sprite, skor kamu nambah! Yeay! 🎉
+Collect Soot Sprites: Every time you touch a Soot Sprite, your score goes up! Yay! 🎉
 
-Aplikasi Desktop Unyu: Ini bukan cuma di browser lho, tapi aplikasi desktop asli pakai Electron! Bisa dikecilin atau disembunyiin juga! 💖
+Cute Desktop App: It's not just for browsers, it's a real desktop app made with Electron! You can shrink it or hide it too! 💖
 
-Ada Suara & Musik: Biar mainnya makin seru dan tenang! 🎶
+Sounds & Music: To make the game even more fun and relaxing! 🎶
 
-🕹️ Cara Main & Nikmatin
-Jalankan aplikasi totoro-game.exe dari folder yang sudah kamu extract (cek di dist/totoro-game-win32-x64).
+🕹️ How to Play & Enjoy
+Run the totoro-game.exe application from the packaged folder (check in dist/totoro-game-win32-x64).
 
-Pas muncul "Totoro Awaits!", klik tombol "Mulai Game" ya! (Ini penting biar musiknya keluar 🤫)
+When "Totoro Awaits!" pops up, click the "Start Game" button! (This is important to get the music playing 🤫)
 
-Gerakin Totoro pakai tombol panah (↑ ↓ ← →) atau WASD (W A S D).
+Move Totoro around using the arrow keys (↑ ↓ ← →) or WASD (W A S D).
 
-Kejar dan sentuh Soot Sprite-nya! Setiap dapat, skor kamu naik!
+Chase and touch the Soot Sprites! Every time you get one, your score increases!
 
-Kalau Totoro capek, dia bakal tidur~ Tapi kalau digerakin lagi, dia langsung bangun kok! 🏃💨
+If Totoro gets tired, he'll take a nap~ But if you move him again, he'll wake right up! 🏃💨
 
-🛠️ Cara Jalamin dari Komputer Kamu
-Kalau mau coba atau edit kodenya langsung:
+🛠️ How to Run from Your Computer (Source Code)
+If you want to try or edit the code directly:
 
-Clone dulu repositori ini:
+Clone this repository:
 
 git clone https://github.com/njhereee/Soot-Sprite-Collector.git
 
-Masuk ke foldernya:
+Navigate to the project directory:
 
 cd Soot-Sprite-Collector
 
-Install teman-teman Node.js & Electron:
+Install Node.js & Electron dependencies:
 
 npm install
 
-Mainkan! ✨
+Play! ✨
 
 npm start
 
-📦 Mau Dijadiin .exe Sendiri?
-Gampang banget! Setelah npm install, tinggal jalanin ini di Terminal/CMD:
+📦 How to Make it an .exe Yourself
+Super easy! After npm install, just run this in your Terminal/CMD:
 
 npm run package-win
 
-Nanti hasilnya ada di folder dist/totoro-game-win32-x64.
+You'll find the finished app in the dist/totoro-game-win32-x64 folder.
 
-📂 Isi Projectnya
+📂 Project Content
 Soot-Sprite-Collector/
-├── index.html          # Rumah utama si Totoro
-├── script.js           # Otak game Totoro (semua logika di sini!)
-├── styles.css          # Baju dan Dekorasi Totoro
-├── main.js             # Jendela rahasia Electron
-├── package.json        # Kartu identitas project
-├── .gitignore          # Daftar file yang gak perlu dikirim ke GitHub
-├── images/             # Hutan tempat semua gambar dan suara tinggal
+├── index.html          # Totoro's main home
+├── script.js           # Totoro's game brain (all the logic is here!)
+├── styles.css          # Totoro's clothes and decorations
+├── main.js             # The secret Electron window manager
+├── package.json        # Project ID card
+├── .gitignore          # List of files not to send to GitHub
+├── images/             # The forest where all the pictures and sounds live
 │   ├── background.jpg
 │   ├── collect_sound.wav
 │   ├── move_sound.wav
@@ -68,22 +68,22 @@ Soot-Sprite-Collector/
 │   ├── close-icon.png
 │   ├── shrink-icon.png
 │   ├── totoro-pixel.png
-│   ├── Soot Sprites/     # Keluarga Soot Sprite
+│   ├── Soot Sprites/     # The Soot Sprite family
 │   │   └── ...
-│   ├── Tororo/           # Totoro lagi jalan-jalan
+│   ├── Tororo/           # Totoro out for a stroll
 │   │   └── ...
-│   └── Tororo Sleep/     # Totoro lagi bobo
+│   └── Tororo Sleep/     # Totoro taking a nap
 │       └── ...
-└── dist/               # Kotak hadiah aplikasi (.exe)
-└── node_modules/       # Gudang teman-teman Node.js
+└── dist/               # The app's gift box (.exe)
+└── node_modules/       # The Node.js buddies warehouse
 
-💖 Terima Kasih
-Dibuat oleh: Angie (alias njhereee)
+💖 Credits
+Made by: Angie (aka njhereee)
 
-Inspirasi dari: Studio Ghibli - My Neighbor Totoro (makasih yaaa!)
+Inspired by: Studio Ghibli - My Neighbor Totoro (thank youuu!)
 
-Font Piksel: 'Press Start 2P' oleh CodeMan38
+Pixel Font: 'Press Start 2P' by CodeMan38
 
-Efek Suara / Musik: [Sebutkan sumber SFX/Musik jika dari pihak ketiga, kalau buatan sendiri bisa ditulis "Original" atau "Homemade"]
+Sound Effects / Music: [Mention SFX/Music source if from third-party, or write "Original" or "Homemade" if you made them]
 
 ![alt text](image.png)
