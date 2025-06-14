@@ -29,26 +29,26 @@ Hola! Welcome to Totoro's little adventure! ✨ This is a cute pixel art mini-ga
 If you want to try or edit the code directly:
 
 ### Clone this repository:
-
+```
 git clone https://github.com/njhereee/Soot-Sprite-Collector.git
-
+```
 ### Navigate to the project directory:
-
+```
 cd Soot-Sprite-Collector
-
+```
 ### Install Node.js & Electron dependencies:
-
+```
 npm install
-
+```
 ### Play! ✨
-
+```
 npm start
-
+```
 ## 📦 How to Make it an .exe Yourself
 ### Super easy! After npm install, just run this in your Terminal/CMD:
-
+```
 npm run package-win
-
+```
 _You'll find the finished app in the dist/totoro-game-win32-x64 folder._
 
 ## 📂 Project Content
@@ -86,6 +86,7 @@ Soot-Sprite-Collector/
 ## 💖 Credits
 
 * **Made by:** Angie (aka njhereee)
+* **Pixel Art / Design:** Angie (I designed it<3)
 * **Inspired by:** Studio Ghibli - My Neighbor Totoro (thank youuu!)
 * **Pixel Font:** 'Press Start 2P' by CodeMan38 (thank youuu!)
 * **Sound Effects / Music:** pixabay.com (thank youuu!)
